@@ -59,7 +59,17 @@ customElements.define('custom-component', WebComponent);
 
 ## Result
 
-Embed and link your javascript, then use your custom component.
+Embed and link your javascript, then use your new custom component.
+
+```html
+<html>
+    <body>
+        <custom-component>
+        </custom-component>
+        <script type="module" src="./index.js">
+    </body>
+</html>
+```
 
 
 ## Summary
@@ -91,7 +101,6 @@ class WebComponent extends Custom {
 
 
 customElements.define('custom-component', WebComponent);
-
 ```
 
 __________________________________________________________
