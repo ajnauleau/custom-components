@@ -1,14 +1,72 @@
 
-Custom Web Components
+## Custom Web Components
 
-Make and Style Custom Web Components Easily
+Make and style custom web components easily!
 
+## Installation
 
-##Style and Render
+```node
+$ npm install --save @ajnauleau/custom-components
+```
+
+## Style
+
+First start out by adding css styles to your component:
 
 ```javascript
 
-import Component from '../index.js';
+import Component from '@ajnauleau/custom-components';
+
+
+const Custom = Component.styled`
+    color: red;
+    background: black;
+`;
+```
+
+## Extend
+
+Extend your component by adding any valid HTML between template literals ` `` `:
+
+```javascript
+class WebComponent extends Custom {
+
+    constructor() {
+        super();
+    }
+
+    render() {
+        let world = 'world';
+        return (
+            `<div>
+                <p>hello ${world}</p>
+             <div>
+             `
+        )
+    }
+}
+```
+
+## Render
+
+Render your new web component and give it a custom name. REMEMBER! Web component names must use a hyphen (-).
+
+```javascript
+
+customElements.define('custom-component', WebComponent);
+```
+
+
+## Result
+
+Embed and link your javascript, then use your custom component.
+
+
+## Summary
+
+```javascript
+
+import Component from '@ajnauleau/custom-components';
 
 
 const Custom = Component.styled`
@@ -36,11 +94,16 @@ customElements.define('custom-component', WebComponent);
 
 ```
 
+__________________________________________________________
 
-##Access Props
+<h4>Coming Soon!</h4>
+
+## Access Props
+
+Attribute to Props, similar to React
 
 
-##Lifecycle
+## Lifecycle
 
 constructor()
 

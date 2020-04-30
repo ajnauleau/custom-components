@@ -15,8 +15,9 @@ class WebComponent extends Custom {
     }
 
     render() {
+        let world = 'world';
         return (
-            `<p>hello</p>`
+            `<p>hello ${world}</p>`
         )
     }
 
