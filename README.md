@@ -1,7 +1,7 @@
 
 ## Custom Web Components
 
-<img align="center" style="width:140px;height:280px" src="./assets/logo.png">
+<img align="center" style="width:80px;height:120px" src="./assets/logo.png">
 
 Make and style custom web components easily!
 
