@@ -1,7 +1,10 @@
 
 ## Custom Web Components
 
+<img align="center" style="width:140px;height:280px" src="./assets/logo.png">
+
 Make and style custom web components easily!
+
 
 ## Installation
 
@@ -14,7 +17,6 @@ $ npm install --save @ajnauleau/custom-components
 First start out by adding css styles to your component:
 
 ```javascript
-
 import Component from '@ajnauleau/custom-components';
 
 
@@ -52,7 +54,6 @@ class WebComponent extends Custom {
 Render your new web component and give it a custom name. REMEMBER! Web component names must use a hyphen (-).
 
 ```javascript
-
 customElements.define('custom-component', WebComponent);
 ```
 
@@ -66,7 +67,7 @@ Embed and link your javascript, then use your new custom component.
     <body>
         <custom-component>
         </custom-component>
-        <script type="module" src="./index.js">
+        <script type="module" src="./index.js"></script>
     </body>
 </html>
 ```
@@ -75,7 +76,6 @@ Embed and link your javascript, then use your new custom component.
 ## Summary
 
 ```javascript
-
 import Component from '@ajnauleau/custom-components';
 
 
