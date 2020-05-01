@@ -1,5 +1,5 @@
 
-import Component from '../index.js';
+import {Component} from '../index.js';
 
 
 const Custom = Component.styled`

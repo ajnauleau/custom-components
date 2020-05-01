@@ -19,7 +19,7 @@ $ npm install --save @ajnauleau/custom-components
 First start out by adding css styles to your component:
 
 ```javascript
-import Component from '@ajnauleau/custom-components';
+import { Component } from '@ajnauleau/custom-components';
 
 
 const Custom = Component.styled`
