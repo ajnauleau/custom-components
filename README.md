@@ -1,7 +1,9 @@
 
 ## Custom Web Components
 
-<img align="center" style="width:80px;height:120px" src="./assets/logo.png">
+<a href="http://gitub.com/ajnauleau/custom-components">
+    <img align="center" style="width:80px;height:120px" src="assets/logo.png">
+</a>
 
 Make and style custom web components easily!
 
