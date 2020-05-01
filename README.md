@@ -1,7 +1,7 @@
 
 ## Custom Web Components
 
-<a href="http://gitub.com/ajnauleau/custom-components">
+<a href="http://github.com/ajnauleau/custom-components">
     <img align="center" style="width:80px;height:120px" src="assets/logo.png">
 </a>
 
