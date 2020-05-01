@@ -77,6 +77,8 @@ Embed and link your javascript, then use your new custom component.
 
 ## Summary
 
+Here's the complete javascript file for your reference.
+
 ```javascript
 import Component from '@ajnauleau/custom-components';
 

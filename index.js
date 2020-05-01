@@ -24,15 +24,15 @@ class Component extends HTMLElement {
     applyRender() {
         if(this.render) {
             const render = this.render();
-            this._shadowRoot.innerHTML += render;
+            const html = this.$template.innerHTML + render;
+            this._shadowRoot.innerHTML = html;
         }
     }
 
     static styled(style) {
         this.$template = document.createElement('template');
         document.body.appendChild(this.$template);
-        this.$template.innerHTML = `<style>:host { ${style[0]} }
-                            </style>`;
+        this.$template.innerHTML = `<style>:host { ${style[0]} } </style>`;
         console.log(this.$template)
         return this;
     }
