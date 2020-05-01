@@ -2,7 +2,7 @@
 ## Custom Web Components
 
 <a href="http://github.com/ajnauleau/custom-components">
-    <img align="center" src="/ajnauleau/custom-components/raw/master/assets/logo.png" style="max-width:100%;">
+    <img align="center" src="https://imgur.com/LVyjmJW" style="max-width:100%;">
 </a>
 
 Make and style custom web components easily!
