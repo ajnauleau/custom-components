@@ -5,7 +5,9 @@
     <img align="center" src="https://i.imgur.com/LVyjmJW.png" style="max-width:100%;">
 </a>
 
-Make and style custom web components easily! [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
+Make and style custom web components easily!
+
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
 
 
 ## Installation
