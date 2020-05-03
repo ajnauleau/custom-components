@@ -16,5 +16,16 @@
     "javascript"
   ],
   "author": "ajnauleau <antoine@nauleau.io>",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajnauleau/custom-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ajnauleau/custom-components/issues"
+  },
+  "homepage": "https://github.com/ajnauleau/custom-components#readme"
 }
